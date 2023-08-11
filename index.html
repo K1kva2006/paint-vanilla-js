@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Game</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <label class="color-label" for="textInput">Pick a color</label>
+            <input type="color" id="colorInput">
+
+            <div class="container-config">
+                <label class="size-label" for="sizeInput">Input a pixel size</label>
+                <input type="number" id="sizeInput" placeholder="input a size...">
+                <input type="number" id="widthSizeInput" placeholder="only width">
+                <input type="number" id="heightSizeInput" placeholder="only height">
+            </div>
+
+            <div class="container-config">
+                <label class="size-border" for="sizeBorder">Choose border size</label>
+                <input type="range" id="sizeBorder" >
+            </div>
+
+            <div>
+                <button id="removeButton">
+                    Remove mode 
+                </button>
+            </div>
+
+            <div id="remove">
+
+            </div>
+            
+        </div>
+
+        <div class="block"></div>
+    </body>
+</html>
